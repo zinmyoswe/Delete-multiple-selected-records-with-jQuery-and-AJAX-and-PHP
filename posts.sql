@@ -1,0 +1,21 @@
+CREATE TABLE `posts` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(100) NOT NULL,
+  `content` text NOT NULL,
+  `link` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1;
+
+
+INSERT INTO `posts` (`id`, `title`, `content`, `link`) VALUES
+(1, 'Drag and drop image upload using jQuery,AJAX, and PHP', 'A route is a way to remapping, makes more meaningful and SEO friendly URLs. The visitor views the newly generated page URL and the route calls the defined action URL which will be hidden from the visitors.', 'http://makitweb.com/how-to-route-a-url-in-codeigniter/'),
+(2, 'How to change thumbnail for non-image file in Dropzone', 'When uploading the image with Dropzone then it will create a thumbnail of it for preview but it will show a blank thumbnail while uploading the non-image file like – text, word, pdf files.', 'http://makitweb.com/how-to-change-thumbnail-for-non-image-file-in-dropzone/'),
+(3, 'Customize the select element with jQuery Nice Select', 'jQuery Nice Select is a lightweight jQuery plugin that is the simple replacement for the native select element.\n\nThis quickly adds styling on the select element. It works well on both mobile and desktop browsers.', 'http://makitweb.com/customize-the-select-element-with-jquery-nice-select/'),
+(4, 'Loading data remotely in Select2 with AJAX', 'Collapzion.js is a lightweight jQuery plugin that adds a floating material designed toggle button on the webpage.\n\nThe button contains some child items with its own actions which will show and hide when clicking on the toggle button.', 'http://makitweb.com/loading-data-remotely-in-select2-with-ajax/'),
+(5, 'Make Floating toggle menu with Collapzion.js', 'We can open the file in a number of ways according to need For example - Writing, Reading, Adding more content to file, etc. Its file handling functions are little similar to C language.', 'http://makitweb.com/make-floating-toggle-menu-with-collapzion-js/'),
+(6, 'Like unlike Rating System with AngularJS and PHP', 'With like unlike system you can allow the registered users to give a feedback on a content.\n\nIt helps the webmaster to track the user’s response to the contents whether they like or not and take an action.', 'http://makitweb.com/like-unlike-rating-system-with-angularjs-and-php/'),
+(7, 'Make pagination with CodeIgniter Framework', 'Pagination on the page improves the user experience when there is a large number of records are available.\n\nCodeIgniter has provided a library for effectively handle the pagination functionality.', 'http://makitweb.com/make-pagination-with-codeigniter-framework/'),
+(8, 'Delete the uploaded file from Dropzone.js - PHP', 'With Dropzone.js script you can easily implement drag and drop file upload functionality on your website.\n\nBut by default, it only allows file uploading with no file remove option.', 'http://makitweb.com/delete-the-uploaded-file-from-dropzone-js-php/'),
+(9, 'Multiple files upload with AngularJS and PHP', 'You can allow multiple files selection by creating more than one file element but you can easily do this with just single file element.\n\nIt consumes less space and easy to handle but for this, you need to customize the element.\n\nIn this tutorial, I am using AngularJS and PHP to upload multiple files to the servers.\n\nI am creating a custom directive to handle file selection in the AngularJS.', 'http://makitweb.com/multiple-files-upload-with-angularjs-and-php/'),
+(10, 'How to change language of jQuery UI datepicker', 'jQuery UI datepicker by default show widget text content in English language but you can change it any other language easily.\n\nFor this, you need to load language script file on your web page and point it to the datepicker widget.', 'http://makitweb.com/how-to-change-language-of-jquery-ui-datepicker/'),
+(11, 'How to submit form with JavaScript and jQuery', 'It is not always mandatory that for submit form requires adding the submit button.\n\nYou can do this with any other elements e.g. checkbox, radio, select, etc. using Client side script.\n\nIn this quick tutorial, I show how you can use JavaScript and jQuery to submit element.', 'http://makitweb.com/how-to-submit-form-with-javascript-and-jquery/');

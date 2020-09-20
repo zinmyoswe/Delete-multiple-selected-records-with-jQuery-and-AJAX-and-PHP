@@ -1,0 +1,19 @@
+.container{
+    margin: 0 auto;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table td a{
+    text-decoration: none;
+    color: black;
+}
+
+table th,td{
+    padding: 5px;
+}
+.delete{
+    color: red;
+}
